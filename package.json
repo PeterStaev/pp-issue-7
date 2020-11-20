@@ -4,13 +4,7 @@
   "readme": "NativeScript Application",
   "repository": "<fill-your-repository-here>",
   "nativescript": {
-    "id": "com.tangrainc.dropdownsample.ng",
-    "tns-ios": {
-      "version": "6.4.0"
-    },
-    "tns-android": {
-      "version": "6.4.1"
-    }
+    "id": "com.tangrainc.dropdownsample.ng"
   },
   "scripts": {
     "android": "npm uninstall nativescript-drop-down && tns platform remove android && tns platform add android@rc && tns run android",
