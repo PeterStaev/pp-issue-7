@@ -1,0 +1,49 @@
+.default {
+    padding: 15;
+    background-color: red;
+    color: yellow;
+    font-size: 25;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    margin: 20;
+    border-width: 2;
+    border-color: black;
+}
+.changed-styles {
+    padding: 10;
+    font-size: 35;
+    text-decoration: line-through;
+    background-color: blue;
+    color: green;
+    text-align: right;
+    placeholder-color: red;
+}
+
+
+.default .drop-down-item {
+    color: red;
+    text-align: right;
+    background-color: yellow;
+}
+
+.default .drop-down-item:selected {
+    color: red;
+    font-weight: bold;
+    font-size: 35;
+    background-color: rgb(151, 146, 146);
+}
+
+.changed-styles .drop-down-item {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    background-color: blue;
+    text-decoration: line-through;
+}
+
+.changed-styles .drop-down-item:selected {
+    color: blue;
+    background-color: green;
+}
